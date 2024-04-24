@@ -116,9 +116,13 @@ function App() {
             />
           </div>
           <div className="w-full md:w-1/2 p-2 md:p-4 lg:mr-10 border-gray-900 border-2 rounded-2xl md:my-auto">
-            <p className="text-left text-lg md:text-xl lg:text-3xl font-medium text-gray-200 mb-4">
-              Introduction
-            </p>
+            <div className="text-left text-lg flex  md:text-xl lg:text-3xl font-medium text-gray-200 mb-4">
+              <img
+                className="px-2 md:scale-90 scale-75 pt-0 lg:pt-2 md:pt-1 "
+                src="https://res.cloudinary.com/dbenkbws8/image/upload/v1713974953/Soft_Star_j3e13v.png"
+              />
+              <p className="pt-2 md:mt-0 "> Introduction</p>
+            </div>
             <p className="text-left text-sm md:text-[11px] lg:[18px]  lg:text-base leading-relaxed text-gray-400">
               Welcome to Vayam, your premier destination for all things
               creative! At Vayam, we specialize in a wide range of services to
@@ -141,24 +145,121 @@ function App() {
             <p className="text-left text-[14px] md:text-md lg:text-xl font-medium text-gray-400 mb-2">
               SERVICES
             </p>
-            <p className="text-left text-white text-[15px] md:text-2xl lg:text-4xl font-semibold">
+            <p className="text-left text-white text-[16px] md:text-2xl lg:text-4xl font-semibold">
               OUR SERVICES
             </p>
           </div>
           <div className="flex scale-[60%] md:scale-100 justify-end md:w-3/10 w-[60%] my-auto pr-[5%] mt-2 md:mt-0  md:m-4">
-            <div className="flex mt-1 border-2 border-gray-900 lg:mx-5 mx-2 rounded-3xl ">
-              <div className="bg-zinc-800 p-3 m-1 rounded-full">
+            <div className="md:flex hidden mt-1 border-2 border-gray-900 lg:mx-5 mx-2 rounded-3xl ">
+              <div className="bg-zinc-800  p-3 m-1 rounded-full">
                 <FaChevronLeft />
               </div>
               <div className="bg-zinc-800 p-3 m-1 rounded-full">
                 <FaChevronRight />
               </div>
             </div>
-            <div className="flex mt-1 md:mt-2 bg-zinc-800 p-1 md:p-2  px-3  rounded-full">
-              <p className="text-[30px] md:text-3xl pt-2 lg:pt-0 md:pt-1">
+            <div className="flex mt-1 md:mt-2 bg-zinc-800 p-3 px-4 md:p-2  md:px-3  rounded-full">
+              <p className="text-[30px] md:text-3xl pt-1 lg:pt-0 md:pt-1">
                 <HiMiniEye />
               </p>
               {/* <FaArrowRightLong className="hidden md:mt-[7px] md:text-[19px] ml-2" /> */}
+            </div>
+          </div>
+        </div>
+        <div className="md:hidden">
+          {/* graphic */}
+          <div>
+            <div className="mx-[6%] mt-5 relative">
+              <img
+                className="rounded-3xl w-[95%] mx-auto"
+                src="https://s3-alpha-sig.figma.com/img/b128/db12/63e72cc6709754d8b9b8e023adab5a77?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hfZapXVMlsbPMQc76sj2nadvWrORSQImuaF35w02giEU8Jc2Y8IM3wWcforPlkiJ8agGqOkfUUUmpIQhdOMMwLQUsh6XKKBwFZ5RZW9xXPsuelZytQ2sYYIQrIqp-Sm41Usoey-Zv7HnKZnIRgoNZM3k-qzsYVqjEyYXJMo06xAkkVe0G1o5~8NiTA4Dav5DrVB4o0JkWxxj8u9KRrKgYMmsCSQOZ-2G45JrB8Kw-Ki92duCGB9zz7fUhiKPkSP5goI7QjLWGVeAPPPYHP5WQ6KhY88KzhfXb7SX6RRBHPLuuuJBcIn0Iff3O3OD4Qwf~d9QDvQoRW63B3EWZbYARg__"
+                alt="your image"
+              />
+              <div className="flex bg-black rounded-full m-3 absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
+                <div className="flex m-2 border-2 border-zinc-800 rounded-full">
+                  <div className="bg-zinc-800 p-3 m-1 rounded-full">
+                    <FaChevronLeft />
+                  </div>
+                  <div className="bg-zinc-800 p-3 m-1 rounded-full">
+                    <FaChevronRight />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pt-10 text-left mx-[7%] text-gray-600">
+              <p className="text-2xl  uppercase text-gray-400">
+                Graphic Design
+              </p>
+              <p className="pt-2">
+                In the vibrant realm of website design, graphic design serves as
+                the pulse, infusing every pixel with intention and allure. From
+                captivating logos to seamless user interfaces, graphic design
+                orchestrates the visual symphony that transforms digital spaces
+                into captivating experiences.
+              </p>
+            </div>
+          </div>
+          {/* ui.ux */}
+          <div className="pt-[7%]">
+            <div className="mx-[6%] mt-5 relative">
+              <img
+                className="rounded-3xl w-[95%] mx-auto"
+                src="https://s3-alpha-sig.figma.com/img/c494/bbfd/18004bbbd2c95a943ff7b35834094082?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZokrqrDR89OhclDPzTAfBi7fGKHS4dczhoZCpPKfh~7Mu7khZJtoW2HWe0p450XFeWu6djr7Vvksvkz4jb1WyKKKeF9UaDewHqqxXlMyH10sQKebfU8TUpapJfE~UaE3RQKuiB15XuDQAO4XM5cx2922Z2ROAHBePSxnnkRCAJPvAzSER1fj99UvaA3MnnlVYpdk2HgzFMNqG0IFAQeYRNAABCifdu9sS8MR~GUTBYBIxLCImIilSSg-CLOdGknmHlmDrx9CZ3BU4O-qh1qwpUKInD8BnBwl6sn5NfqrhKdDTrsccNEzyDXgVJOMNSZiViG6vQ44B87BpfIAhiwLiw__"
+                alt="your image"
+              />
+              <div className="flex bg-black rounded-full m-3 absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
+                <div className="flex m-2 border-2 border-zinc-800 rounded-full">
+                  <div className="bg-zinc-800 p-3 m-1 rounded-full">
+                    <FaChevronLeft />
+                  </div>
+                  <div className="bg-zinc-800 p-3 m-1 rounded-full">
+                    <FaChevronRight />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pt-10 text-left mx-[7%] text-gray-600">
+              <p className="text-2xl  uppercase text-gray-400">UIuX design</p>
+              <p className="pt-2">
+                In the dynamic landscape of website design, UI/UX design emerges
+                as the architect, crafting intuitive pathways and immersive
+                interactions. Seamlessly blending aesthetics with functionality,
+                UI/UX design elevates user journeys, transforming browsing into
+                an engaging exploration.
+              </p>
+            </div>
+          </div>
+          {/* photography
+           */}
+          <div className="pt-[7%]">
+            <div className="mx-[6%] mt-5 relative">
+              <img
+                className="rounded-3xl object-scale-down mx-auto"
+                src="https://s3-alpha-sig.figma.com/img/e65c/c093/53fc992f5f93511a061329d902be7c4a?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eJ7s8hpyjiNP9Xygw3EEs7GjuvL5MnQuri8NlB9ye6IxkxABxTHSpHnKl2a6cTMO1zAbIVQgu47fMSBqPyTWlyHwwcEBTKMbae9u1DorKmmbIKxLjqY2jFQYaJoyNgGrG3j0CpXtN9bIowO5ZhvgoJhonty52bDnvsaTyOULIyCvH4z1VaZMrV4xeGlqDBPGLtmW6iiShkg1kCJKcXjNdJ4EfEzy60O7TfYC3cIdmikpMIK9D2CP~YpO~LoTcAX-XyIsyKLoxmmRGQV~0h813TnvFSMB1mCBG6nJAAqeiqcmOzoEfqA5Xw~eBMXY65OmE0EUPefVbx3qo7Sj3qYXDg__"
+                alt="your image"
+                style={{ height: "300px",width: "950%", objectFit: "cover"  }}
+              />
+              <div className="flex bg-black rounded-full m-3 absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
+                <div className="flex m-2 border-2 border-zinc-800 rounded-full">
+                  <div className="bg-zinc-800 p-3 m-1 rounded-full">
+                    <FaChevronLeft />
+                  </div>
+                  <div className="bg-zinc-800 p-3 m-1 rounded-full">
+                    <FaChevronRight />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pt-10 text-left mx-[7%] text-gray-600">
+              <p className="text-2xl  uppercase text-gray-400">Photography</p>
+              <p className="pt-2">
+                Our event photography service is dedicated to capturing the
+                magic of your special occasions. Whether it's a wedding,
+                corporate event, or milestone celebration, we're there to
+                document every heartfelt moment. We blend into the background,
+                ensuring natural and candid shots that reflect the emotions of
+                the day.
+              </p>
             </div>
           </div>
         </div>
@@ -274,21 +375,21 @@ function App() {
               </div>
             </div> */}
             <div className="flex  scale-[60%] md:scale-100 justify-end  md:w-3/10 w-[30%] my-auto ml-[10%] md:ml-0 mt-2 md:mt-0  md:m-4">
-            <div className="flex mt-1 border-2 border-gray-900 lg:mx-5 mx-2 rounded-3xl ">
-              <div className="bg-zinc-800 p-3 m-1 rounded-full">
-                <FaChevronLeft />
+              <div className="flex mt-1 border-2 border-gray-900 lg:mx-5 mx-2 rounded-3xl ">
+                <div className="bg-zinc-800 p-3 m-1 rounded-full">
+                  <FaChevronLeft />
+                </div>
+                <div className="bg-zinc-800 p-3 m-1 rounded-full">
+                  <FaChevronRight />
+                </div>
               </div>
-              <div className="bg-zinc-800 p-3 m-1 rounded-full">
-                <FaChevronRight />
+              <div className="flex mt-1 md:mt-2 bg-zinc-800 p-1 md:p-2  px-3  rounded-full">
+                <p className="text-[30px] md:text-3xl pt-2 lg:pt-0 md:pt-1">
+                  <HiMiniEye />
+                </p>
+                {/* <FaArrowRightLong className="hidden md:mt-[7px] md:text-[19px] ml-2" /> */}
               </div>
             </div>
-            <div className="flex mt-1 md:mt-2 bg-zinc-800 p-1 md:p-2  px-3  rounded-full">
-              <p className="text-[30px] md:text-3xl pt-2 lg:pt-0 md:pt-1">
-                <HiMiniEye />
-              </p>
-              {/* <FaArrowRightLong className="hidden md:mt-[7px] md:text-[19px] ml-2" /> */}
-            </div>
-          </div>
           </div>
         </div>
         <hr className="border-gray-900  md:mx-[10%]" />
@@ -548,9 +649,14 @@ function App() {
             {/* Left Section */}
             <div className="flex flex-col w-[30%] lg:w-[40%] py-5">
               <div className="flex flex-row font-semibold">
-                <p className="font-manrope font-thin tracking-wide pt-4  text-[23px]">
-                  Contact Information
-                </p>
+                <div className="flex flex-nowrap font-manrope font-thin tracking-wide pt-4  text-[23px]">
+                  <img
+                    className="px-2 md:scale-90 scale-75 lg:pt-0   "
+                    src="https://res.cloudinary.com/dbenkbws8/image/upload/v1713974953/Soft_Star_j3e13v.png"
+                  />
+
+                  <p>Contact Information</p>
+                </div>
               </div>
               <div className="flex  pt-5">
                 <div className="text-left pr-[10%]">
