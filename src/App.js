@@ -7,6 +7,7 @@ import { IoLogoFacebook } from "react-icons/io5";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
+import { HiMiniEye } from "react-icons/hi2";
 
 function App() {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -136,15 +137,15 @@ function App() {
         </div>
         {/* SERVICES */}
         <div className="flex w-[100%] ">
-          <div className="lg:w-[70%] md:w-[60%] w-[50%] pl-[10%]  ">
-            <p className="text-left text-sm md:text-md lg:text-xl font-medium text-gray-400 mb-2">
+          <div className="lg:w-[70%] md:w-[60%] w-[40%] pl-[10%]  ">
+            <p className="text-left text-[14px] md:text-md lg:text-xl font-medium text-gray-400 mb-2">
               SERVICES
             </p>
-            <p className="text-left text-white text-md md:text-2xl lg:text-4xl font-semibold">
+            <p className="text-left text-white text-[15px] md:text-2xl lg:text-4xl font-semibold">
               OUR SERVICES
             </p>
           </div>
-          <div className="flex justify-end md:w-3/10 w-1/2 my-auto pr-[5%] m-4">
+          <div className="flex scale-[60%] md:scale-100 justify-end md:w-3/10 w-[60%] my-auto pr-[5%] mt-2 md:mt-0  md:m-4">
             <div className="flex mt-1 border-2 border-gray-900 lg:mx-5 mx-2 rounded-3xl ">
               <div className="bg-zinc-800 p-3 m-1 rounded-full">
                 <FaChevronLeft />
@@ -153,9 +154,11 @@ function App() {
                 <FaChevronRight />
               </div>
             </div>
-            <div className="flex mt-2 bg-zinc-800 p-2 px-3 rounded-md">
-              <p className="text-xs md:text-[15px] pt-2">View All Services</p>
-              <FaArrowRightLong className=" md:mt-[7px] md:text-[19px] ml-2" />
+            <div className="flex mt-1 md:mt-2 bg-zinc-800 p-1 md:p-2  px-3  rounded-full">
+              <p className="text-[30px] md:text-3xl pt-2 lg:pt-0 md:pt-1">
+                <HiMiniEye />
+              </p>
+              {/* <FaArrowRightLong className="hidden md:mt-[7px] md:text-[19px] ml-2" /> */}
             </div>
           </div>
         </div>
@@ -246,7 +249,7 @@ function App() {
             </p>
           </div>
           <div className="flex w-[100%] mt-[2%]">
-            <div className="lg:w-[70%] md:w-[60%] w-[50%]  ">
+            <div className="lg:w-[70%] md:w-[60%] w-[70%]  ">
               <p className="text-left text-sm md:text-md  font-medium text-gray-400 mb-2">
                 Total Reviews
               </p>
@@ -254,7 +257,7 @@ function App() {
                 323
               </p>
             </div>
-            <div className="flex justify-end md:w-3/10 w-1/2 my-auto pr-[5%] m-4">
+            {/* <div className="flex justify-end md:w-3/10 w-1/2 my-auto pr-[5%] m-4">
               <div className="flex mt-1 border-2 border-gray-900 lg:mx-5 mx-2 rounded-3xl ">
                 <div className="bg-zinc-800 p-3 m-1 rounded-full">
                   <FaChevronLeft />
@@ -269,11 +272,27 @@ function App() {
                 </p>
                 <FaArrowRightLong className=" md:mt-[7px] md:text-[19px] ml-2" />
               </div>
+            </div> */}
+            <div className="flex  scale-[60%] md:scale-100 justify-end  md:w-3/10 w-[30%] my-auto ml-[10%] md:ml-0 mt-2 md:mt-0  md:m-4">
+            <div className="flex mt-1 border-2 border-gray-900 lg:mx-5 mx-2 rounded-3xl ">
+              <div className="bg-zinc-800 p-3 m-1 rounded-full">
+                <FaChevronLeft />
+              </div>
+              <div className="bg-zinc-800 p-3 m-1 rounded-full">
+                <FaChevronRight />
+              </div>
+            </div>
+            <div className="flex mt-1 md:mt-2 bg-zinc-800 p-1 md:p-2  px-3  rounded-full">
+              <p className="text-[30px] md:text-3xl pt-2 lg:pt-0 md:pt-1">
+                <HiMiniEye />
+              </p>
+              {/* <FaArrowRightLong className="hidden md:mt-[7px] md:text-[19px] ml-2" /> */}
             </div>
           </div>
+          </div>
         </div>
-        <hr className="border-gray-900 md:mx-[10%]" />
-        <div className="mt-10 mx-[2%] md:mx-[10%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <hr className="border-gray-900  md:mx-[10%]" />
+        <div className="mt-10 mx-[2%] md:mx-[10%] grid grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* box1 */}
           <div className="h-[60mm] w-[85mm] p-1 ">
             <div
@@ -401,7 +420,7 @@ function App() {
         {/* Footer Small */}
 
         <div className="md:hidden mx-[7%]">
-          <div className="text-left">
+          <div className="text-left pl-5">
             <p className="font-manrope font-thin tracking-wide pt-4  text-[23px]">
               Contact Information
             </p>
@@ -417,106 +436,110 @@ function App() {
             <p className="font-manrope mt-1 text-[#AFB0B6] text-[15px] font-normal">
               +00 000000000
             </p>
-            <div className="flex space-x-2 border-2 my-4 border-[#2F2F37] bg-black p-1 rounded-full">
-            <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
-              <IoLogoFacebook className="text-white" />
-            </div>
-            <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
-              <FaTwitter className="text-white" />
-            </div>
-            <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
-              <FaLinkedin className="text-white" />
+            <div className="flex">
+              <div className="flex space-x-2 border-2 my-4 border-[#2F2F37] bg-black p-1 rounded-full">
+                <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
+                  <IoLogoFacebook className="text-white" />
+                </div>
+                <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
+                  <FaTwitter className="text-white" />
+                </div>
+                <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
+                  <FaLinkedin className="text-white" />
+                </div>
+              </div>
             </div>
           </div>
-          </div>
-          <p className="bg-[#2F2F37] mt-4 p-2 rounded-2xl">Lets Work Together</p>
-          <div>
-            <p className="uppercase text-[12px] py-5 pt-8 text-gray-500">A more meaningful home for photography</p>
+
+          <p className="bg-[#2F2F37] mt-4 p-2 rounded-2xl">Let's Work </p>
+          <div className="border-s-0">
+            <p className="uppercase text-[12px] py-5 pt-8 text-gray-500">
+              A more meaningful home for photography
+            </p>
             <p className="text-left text-[22px] pl-5">LET'S</p>
             <p className="text-left text-[22px] pl-5">WORK TOGETHER</p>
           </div>
           <div className="flex flex-row w-[100%] px-2 pt-5 ">
             <div className="flex flex-col w-[50%] pt-5">
-            <p className="text-[#AFB0B6]  text-[4mm]  px-5 pb-3 text-left">
-                  HOME
-                </p>
-                <p className="text-left text-[4mm] px-5 py-2 underline underline-offset-8">
-                  ABOUT ME
-                </p>
-                <p className="text-left text-[4mm] px-5 py-2 underline underline-offset-8">
-                  MY WORKS
-                </p>
-                <p className="text-left text-[4mm] px-5 py-2 underline underline-offset-8">
-                  TESTIMONIALS
-                </p>
+              <p className="text-[#AFB0B6]  text-[4mm]  px-5 pb-3 text-left">
+                HOME
+              </p>
+              <p className="text-left text-[4mm] px-5 py-2 underline underline-offset-8">
+                ABOUT ME
+              </p>
+              <p className="text-left text-[4mm] px-5 py-2 underline underline-offset-8">
+                MY WORKS
+              </p>
+              <p className="text-left text-[4mm] px-5 py-2 underline underline-offset-8">
+                TESTIMONIALS
+              </p>
             </div>
             <div className="flex flex-col w-[50%] pt-5">
-            <p className="text-[#AFB0B6] px-5 pb-3 text-[4mm] text-right">
-                  CLIENTS
-                </p>
-                <p className="text-right py-2 pl-2 px-5 text-[4mm] underline underline-offset-8">
-                  MOODALE
-                </p>
-                <p className="text-right text-[4mm] px-5 py-2 pl-2 underline underline-offset-8">
-                  DRINKCART
-                </p>
-                <p className="text-right pt-2 pl-2 text-[4mm] px-5 ">
-                  AAIEN: THE
-                </p>
-                <p className="text-right pl-2 text-[4mm] px-5 underline underline-offset-8">
-                  CAREERS
-                </p>
+              <p className="text-[#AFB0B6] px-5 pb-3 text-[4mm] text-right">
+                CLIENTS
+              </p>
+              <p className="text-right py-2 pl-2 px-5 text-[4mm] underline underline-offset-8">
+                MOODALE
+              </p>
+              <p className="text-right text-[4mm] px-5 py-2 pl-2 underline underline-offset-8">
+                DRINKCART
+              </p>
+              <p className="text-right pt-2 pl-2 text-[4mm] px-5 ">
+                AAIEN: THE
+              </p>
+              <p className="text-right pl-2 text-[4mm] px-5 underline underline-offset-8">
+                CAREERS
+              </p>
             </div>
           </div>
           <div className="flex flex-row w-[100%] px-2 pt-6 ">
-                <div className="flex flex-col w-[50%] pt-5">
-                <p className="text-[#AFB0B6] px-5 pb-3 text-[4mm] text-left">
-                  PORTFOLIO
-                </p>
-                <p className="text-left py-2 text-[3.5mm] px-5 underline underline-offset-8">
-                  GRAPHIC DESIGN
-                </p>
-                <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
-                  UI/UX DESIGN
-                </p>
-                <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
-                  PHOTOGRAPHY
-                </p>
-                <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
-                  PHOTO EDIT
-                </p>
-                <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
-                  VIDEOGRAPHY
-                </p>
-                <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
-                  VIDEO EDIT
-                </p>
-                </div>
-                <div className="flex flex-col w-[50%] pt-5">
-                <p className="text-[#AFB0B6] pb-3 text-[4mm]  px-5 text-right">
-                  SERVICES
-                </p>
-                <p className="text-right py-2 text-[3.5mm] px-5 underline underline-offset-8">
-                  GRAPHIC DESIGN
-                </p>
-                <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8">
-                  UI/UX DESIGN
-                </p>
-                <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8">
-                  PHOTOGRAPHY
-                </p>
-                <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8 uppercase">
-                  Editing
-                </p>
-                <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8 uppercase">
-                  digital art
-                </p>
-                <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8 uppercase">
-                  3d modelling
-                </p>
-                </div>
+            <div className="flex flex-col w-[50%] pt-5">
+              <p className="text-[#AFB0B6] px-5 pb-3 text-[4mm] text-left">
+                PORTFOLIO
+              </p>
+              <p className="text-left py-2 text-[3.5mm] px-5 underline underline-offset-8">
+                GRAPHIC DESIGN
+              </p>
+              <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
+                UI/UX DESIGN
+              </p>
+              <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
+                PHOTOGRAPHY
+              </p>
+              <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
+                PHOTO EDIT
+              </p>
+              <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
+                VIDEOGRAPHY
+              </p>
+              <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
+                VIDEO EDIT
+              </p>
+            </div>
+            <div className="flex flex-col w-[50%] pt-5">
+              <p className="text-[#AFB0B6] pb-3 text-[4mm]  px-5 text-right">
+                SERVICES
+              </p>
+              <p className="text-right py-2 text-[3.5mm] px-5 underline underline-offset-8">
+                GRAPHIC DESIGN
+              </p>
+              <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8">
+                UI/UX DESIGN
+              </p>
+              <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8">
+                PHOTOGRAPHY
+              </p>
+              <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8 uppercase">
+                Editing
+              </p>
+              <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8 uppercase">
+                digital art
+              </p>
+              <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8 uppercase">
+                3d modelling
+              </p>
+            </div>
           </div>
-          
         </div>
 
         {/* footer Medium */}
