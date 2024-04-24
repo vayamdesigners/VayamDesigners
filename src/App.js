@@ -211,10 +211,10 @@ function App() {
               </div>
             </div>
             <div className="relative group cursor-pointer">
-            <img
-              className="h-[20mm] w-[40mm] m-1 md:h-[40mm] md:w-[80mm] md:m-2 lg:h-[85mm] lg:w-[150mm] lg:m-3 rounded-md md:rounded-3xl"
-              src="https://s3-alpha-sig.figma.com/img/f2ee/117f/bf6447bc028d3afc309e3b7b6e42ce32?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DWGAhheHaE5EosRzryq2l6a-r5MivxE5zIxROdIceKG~abZgRX5CASZk7nt7CJ-7vhFYCRcqO0zXy4a3eiNW0q0hoPxAjlTpXjwvftj0aX9LM0Sup0u76QNPkMc2ijtN7LeaDO2-7Nzao5qjnWlTS6A1UxKL9K8j3sdXAIS4w7qhdoMtcEIVKEc6zFEQPWJkFYIo0gdjOcm4YM6rPDbhp4Ew55hMstuJjDRlOrLfoN43Qe0xKvyvuSg4Nff~umkUZzeo302B9OkxiC3Uv1r8lO03-5voioaeQRP0fsyzQguda9IKzdBdOCptGKoZmny4HAMBGSHWIrDW8EVklz3vSg__"
-            />
+              <img
+                className="h-[20mm] w-[40mm] m-1 md:h-[40mm] md:w-[80mm] md:m-2 lg:h-[85mm] lg:w-[150mm] lg:m-3 rounded-md md:rounded-3xl"
+                src="https://s3-alpha-sig.figma.com/img/f2ee/117f/bf6447bc028d3afc309e3b7b6e42ce32?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DWGAhheHaE5EosRzryq2l6a-r5MivxE5zIxROdIceKG~abZgRX5CASZk7nt7CJ-7vhFYCRcqO0zXy4a3eiNW0q0hoPxAjlTpXjwvftj0aX9LM0Sup0u76QNPkMc2ijtN7LeaDO2-7Nzao5qjnWlTS6A1UxKL9K8j3sdXAIS4w7qhdoMtcEIVKEc6zFEQPWJkFYIo0gdjOcm4YM6rPDbhp4Ew55hMstuJjDRlOrLfoN43Qe0xKvyvuSg4Nff~umkUZzeo302B9OkxiC3Uv1r8lO03-5voioaeQRP0fsyzQguda9IKzdBdOCptGKoZmny4HAMBGSHWIrDW8EVklz3vSg__"
+              />
               <div className="h-[20mm] w-[40mm] m-1 md:h-[40mm] md:w-[80mm] md:m-2 lg:h-[85mm] lg:w-[150mm] lg:m-3 rounded-md md:rounded-3xl absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-70 flex justify-center items-end pb-10 transition duration-300">
                 <p className="text-white opacity-0 group-hover:opacity-100 font-aileron font-thin tracking-widest uppercase text-[29px]">
                   Editing
@@ -222,7 +222,6 @@ function App() {
               </div>
             </div>
 
-           
             <div className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[15mm] m-1 md:h-[40mm] md:w-[45mm] md:m-2 lg:h-[85mm] lg:w-[60mm] lg:m-3 rounded-md md:rounded-3xl"
@@ -395,8 +394,153 @@ function App() {
           </div>
         </div>
         {/* background */}
-        <div className="mt-[8%] flex justify-end mr-[10%]">
+        <div className="mt-[5%] h-[65mm] flex justify-end mr-[10%]">
           <img src="https://res.cloudinary.com/dbenkbws8/image/upload/v1713890705/Vayam_vector_c99jmo.png" />
+        </div>
+        {/* footer */}
+        <div className="hidden -my-24  md:flex mx-[10%] border-r-2  border-zinc-900 text-white">
+          <div className="flex flex-row mx-[4%] w-full  ">
+            {/* Left Section */}
+            <div className="flex flex-col w-[50%] py-5">
+              <div className="flex flex-row font-semibold">
+                <p className="font-manrope font-thin tracking-wide pt-4  text-[23px]">
+                  Contact Information
+                </p>
+              </div>
+              <div className="flex  pt-5">
+                <div className="text-left pr-[10%]">
+                  <p className="font-manrope text-[14px] font-semibold text-[#E4E4E6]">
+                    Email
+                  </p>
+                  <p className="font-manrope mt-1 text-[#AFB0B6] text-[15px] font-normal">
+                    vayam@gmail.com
+                  </p>
+                  <div className="flex space-x-2 border-2 mt-4 border-[#2F2F37] bg-black p-1 rounded-full">
+                    <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-2">
+                      <IoLogoFacebook className="text-white" />
+                    </div>
+                    <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-2">
+                      <FaTwitter className="text-white" />
+                    </div>
+                    <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-2">
+                      <FaLinkedin className="text-white" />
+                    </div>
+                  </div>
+                </div>
+                <div className="pl-[8%]">
+                  <p className="font-manrope text-[14px] font-semibold text-[#E4E4E6]">
+                    Phone Number
+                  </p>
+                  <p className="font-manrope mt-1 text-[#AFB0B6] text-[15px] font-normal">
+                    +00 000000000
+                  </p>
+                  <div className="bg-[#2F2F37] mt-4 p-2 rounded-2xl">Let's Work</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Section */}
+            <div className="w-[50%] flex flex-row text-[10px] border-l-2 border-zinc-900 py-5 pl-[2%] pt-[6%]">
+              <div>
+                <p className="text-[#AFB0B6] text-[3mm]  px-5 pb-3 text-left">HOME</p>
+                <p className="text-left text-[3.1mm] px-5 py-2 underline underline-offset-8">
+                  ABOUT ME
+                </p>
+                <p className="text-left text-[3.1mm] px-5 py-2 underline underline-offset-8">
+                  MY WORKS
+                </p>
+                <p className="text-left text-[3.1mm] px-5 py-2 underline underline-offset-8">
+                  TESTIMONIALS
+                </p>
+              </div>
+              <div>
+                <p className="text-[#AFB0B6] px-5 pb-3 text-[3mm] text-left">CLIENTS</p>
+                <p className="text-left py-2 pl-2 text-[3.1mm] underline underline-offset-8">
+                  MOODALE
+                </p>
+                <p className="text-left text-[3.1mm] px-5 py-2 pl-2 underline underline-offset-8">
+                  DRINKCART
+                </p>
+                <p className="text-left pt-2 pl-2 text-[3.1mm] px-5 ">
+                  AAIEN: THE
+                </p>
+                <p className="text-left pl-2 text-[3.1mm] px-5 underline underline-offset-8">
+                  CAREERS
+                </p>
+              </div>
+              <div>
+                <p className="text-[#AFB0B6] px-5 pb-3 text-[3mm] text-left">PORTFOLIO</p>
+                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                  GRAPHIC DESIGN
+                </p>
+                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                  UI/UX DESIGN
+                </p>
+                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                  PHOTOGRAPHY
+                </p>
+                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                  PHOTO EDIT
+                </p>
+                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                  VIDEOGRAPHY
+                </p>
+                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                  VIDEO EDIT
+                </p>
+              </div>
+              <div>
+                <p className="text-[#AFB0B6] pb-3 text-[3mm]  px-5 text-left">SERVICES</p>
+                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                  GRAPHIC DESIGN
+                </p>
+                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                  UI/UX DESIGN
+                </p>
+                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                  PHOTOGRAPHY
+                </p>
+                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8 uppercase">
+                  Editing
+                </p>
+                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8 uppercase">
+                  digital art
+                </p>
+                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8 uppercase">
+                  3d modelling
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr className="border-zinc-900 md:mx-[10%] mt-[6.5%]" />
+
+        {/* last */}
+        <div className="flex justify-between items-center py-4 mx-[12%] text-[#797C86]">
+          {/* Div on the left */}
+          <div className="flex ">
+            <p className="pr-5">Terms & Conditions</p>
+            <p>Privacy Policy</p>
+          </div>
+
+          {/* Div in the center */}
+          <div className="flex space-x-2 border-2 border-[#2F2F37] bg-black p-1 rounded-full">
+            <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
+              <IoLogoFacebook className="text-white" />
+            </div>
+            <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
+              <FaTwitter className="text-white" />
+            </div>
+            <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
+              <FaLinkedin className="text-white" />
+            </div>
+          </div>
+
+          {/* Div on the right */}
+          <div>
+            <p>© 2024 Vayam Pvt Ltd Photography. All rights reserved.</p>
+          </div>
         </div>
       </div>
     </div>
