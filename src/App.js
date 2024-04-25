@@ -237,7 +237,7 @@ function App() {
                 className="rounded-3xl object-scale-down mx-auto"
                 src="https://s3-alpha-sig.figma.com/img/e65c/c093/53fc992f5f93511a061329d902be7c4a?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eJ7s8hpyjiNP9Xygw3EEs7GjuvL5MnQuri8NlB9ye6IxkxABxTHSpHnKl2a6cTMO1zAbIVQgu47fMSBqPyTWlyHwwcEBTKMbae9u1DorKmmbIKxLjqY2jFQYaJoyNgGrG3j0CpXtN9bIowO5ZhvgoJhonty52bDnvsaTyOULIyCvH4z1VaZMrV4xeGlqDBPGLtmW6iiShkg1kCJKcXjNdJ4EfEzy60O7TfYC3cIdmikpMIK9D2CP~YpO~LoTcAX-XyIsyKLoxmmRGQV~0h813TnvFSMB1mCBG6nJAAqeiqcmOzoEfqA5Xw~eBMXY65OmE0EUPefVbx3qo7Sj3qYXDg__"
                 alt="your image"
-                style={{ height: "300px",width: "950%", objectFit: "cover"  }}
+                style={{ height: "300px", width: "950%", objectFit: "cover" }}
               />
               <div className="flex bg-black rounded-full m-3 absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
                 <div className="flex m-2 border-2 border-zinc-800 rounded-full">
@@ -405,8 +405,8 @@ function App() {
             >
               <div className="flex items-center justify-between">
                 <div className="text-left">
-                  <p className="text-white font-semibold">Moodale</p>
-                  <p className="text-gray-400 text-sm">Coimbatore, India</p>
+                  <p className="text-white font-semibold">Jayanth Deepala</p>
+                  <p className="text-gray-400 text-sm">Film Director</p>
                 </div>
                 <div className="flex space-x-2 border-2 border-black bg-black p-1 rounded-full">
                   <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
@@ -420,17 +420,20 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center mt-2">
+              <div className="flex items-center ">
                 {[...Array(5)].map((_, index) => (
-                  <div key={index} className="my-4">
+                  <div key={index} className="my-1">
                     <FaStar className="fill-yellow-500" />
                   </div>
                 ))}
               </div>
-              <p className="text-white text-left mt-2">
-                "Bravo to Vayam for their excellent graphic design! They
-                exceeded all expectations. Highly recommended!"
+              <p className="text-white text-[13px]  text-left ">
+                "It’s A Happy Collaboration With This Team As In They Listen To
+                Your Requirements With Utmost Patience And Deliver A Very Well
+                Curated Piece Of Content. "
               </p>
+              <p className="text-white text-[13px] text-left mt-1"> But Mind You, Quality Takes Time And Yes They Take It For Finesse.</p>
+
             </div>
           </div>
           {/* box2 */}
