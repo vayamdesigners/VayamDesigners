@@ -532,13 +532,13 @@ function App() {
               Email
             </p>
             <p className="font-manrope mt-1 text-[#AFB0B6] text-[15px] font-normal">
-              vayam@gmail.com
+              vayamdesigners@gmail.com
             </p>
             <p className="font-manrope text-[14px] font-semibold text-[#E4E4E6]">
               Phone Number
             </p>
             <p className="font-manrope mt-1 text-[#AFB0B6] text-[15px] font-normal">
-              +00 000000000
+              +91 9032141474
             </p>
             <div className="flex">
               <div className="flex space-x-2 border-2 my-4 border-[#2F2F37] bg-black p-1 rounded-full">
@@ -667,7 +667,7 @@ function App() {
                     Email
                   </p>
                   <p className="font-manrope mt-1 text-[#AFB0B6] text-[15px] font-normal">
-                    vayam@gmail.com
+                    vayamdesigners@gmail.com
                   </p>
                   <div className="flex space-x-2 border-2 mt-4 border-[#2F2F37] bg-black p-1 rounded-full">
                     <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-2">
@@ -686,7 +686,7 @@ function App() {
                     Phone Number
                   </p>
                   <p className="font-manrope mt-1 text-[#AFB0B6] text-[15px] font-normal">
-                    +00 000000000
+                    +91 9032141474
                   </p>
                   <div className="bg-[#2F2F37] mt-4 p-2 text-[10px] lg:text-[14px] rounded-2xl">
                     Let's Work
