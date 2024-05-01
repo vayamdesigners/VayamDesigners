@@ -120,8 +120,14 @@ const Contact = () => {
             Feel free to reach out to us through various channels. We are
             available by phone, email, and social media for your convenience.
           </p>
-          <p className="text-[14px] pt-4 underline underline-offset-2 text-gray-300"> +91 9032141474</p>
-          <p className="text-[14px] pt-2  underline underline-offset-2 text-gray-300"> vayamdesigners@gmail.com</p>
+          <p className="text-[14px] pt-4 underline underline-offset-2 text-gray-300">
+            {" "}
+            +91 9032141474
+          </p>
+          <p className="text-[14px] pt-2  underline underline-offset-2 text-gray-300">
+            {" "}
+            vayamdesigners@gmail.com
+          </p>
         </div>
 
         {/* img  md*/}

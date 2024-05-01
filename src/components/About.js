@@ -186,7 +186,7 @@ const About = () => {
               OUR SERVICES
             </p>
           </div>
-          <div className="flex scale-[60%] md:scale-100 justify-end md:w-3/10 w-[60%] my-auto pr-[5%] mt-7 md:mt-0  md:m-4">
+          <div className="flex scale-[60%] md:scale-100 justify-end md:w-3/10 w-[60%] my-auto pr-[5%] md:mt-7 mt-2  md:m-4">
             <div className="md:flex hidden mt-1 border-2 border-gray-900 lg:mx-5 mx-2 rounded-3xl ">
               <div className="bg-zinc-800  p-3 m-1 rounded-full">
                 <FaChevronLeft />
