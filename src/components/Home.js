@@ -476,7 +476,7 @@ function Home() {
               </p>
             </div>
           </div>
-          {/* box3 
+          {/*box3*/} 
           <div className="h-[60mm] w-[85mm] p-1 ">
             <div
               className="p-4 rounded-lg h-full"
@@ -487,8 +487,8 @@ function Home() {
             >
               <div className="flex items-center justify-between">
                 <div className="text-left">
-                  <p className="text-white font-semibold">Aaien: The careers</p>
-                  <p className="text-gray-400 text-sm">USA, California</p>
+                  <p className="text-white font-semibold">Denaurlen</p>
+                  <p className="text-gray-400 text-sm">T-Hub, Hyderabad</p>
                 </div>
                 <div className="flex space-x-2 border-2 border-black bg-black p-1 rounded-full">
                   <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
@@ -510,12 +510,12 @@ function Home() {
                 ))}
               </div>
               <p className="text-white mt-2 text-[14px] pb-1 text-left">
-                "Vayam's photography skillfully captured the essence of our
-                wedding day. Their editing brings our cherished memories to
-                life.!"
+                "Their creative team has consistently delivered stunning
+                graphic designs that perfectly capture our brand
+                essence."
               </p>
             </div>
-          </div>*/}
+          </div>}
         </div>
         {/* background */}
         <div className="mt-[5%] h-[20mm] md:h-[65mm] flex justify-end mr-[4%] md:mr-[10%]">
