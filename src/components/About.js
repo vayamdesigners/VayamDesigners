@@ -79,19 +79,19 @@ const About = () => {
           </p>
           <div className="flex justify-between">
             <div className="bg-[#1C1C21] rounded-md mx-1 p-4  py-8 pr-16 mb-4 flex-1">
-              <p className="text-[22px] text-left">5+</p>
+              <p className="text-[22px] text-left">70+</p>
               <p className="text-[14px] text-left text-gray-500">
                 Happy Clients
               </p>
             </div>
             <div className="bg-[#1C1C21] rounded-md mx-1 p-4 py-8 pr-16 mb-4 flex-1">
-              <p className="text-[22px] text-left">70+</p>
+              <p className="text-[22px] text-left">40+</p>
               <p className="text-[14px] text-left text-gray-500">
                 Graphic Projects
               </p>
             </div>
             <div className="bg-[#1C1C21] rounded-md mx-1 p-4 py-8 pr-16 mb-4 flex-1">
-              <p className="text-[22px] text-left">30+</p>
+              <p className="text-[22px] text-left">10+</p>
               <p className="text-[14px] text-left text-gray-500">
                 UiUx Projects
               </p>
