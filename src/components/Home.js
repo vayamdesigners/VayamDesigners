@@ -515,7 +515,7 @@ function Home() {
                 essence."
               </p>
             </div>
-          </div>}
+          </div>
         </div>
         {/* background */}
         <div className="mt-[5%] h-[20mm] md:h-[65mm] flex justify-end mr-[4%] md:mr-[10%]">
