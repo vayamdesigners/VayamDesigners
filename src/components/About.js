@@ -307,7 +307,7 @@ const About = () => {
             <div className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[20mm] m-1 md:h-[40mm] md:w-[50mm] md:m-2 lg:h-[85mm] lg:w-[85mm] lg:m-3 rounded-md md:rounded-3xl"
-                src="https://s3-alpha-sig.figma.com/img/b128/db12/63e72cc6709754d8b9b8e023adab5a77?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hfZapXVMlsbPMQc76sj2nadvWrORSQImuaF35w02giEU8Jc2Y8IM3wWcforPlkiJ8agGqOkfUUUmpIQhdOMMwLQUsh6XKKBwFZ5RZW9xXPsuelZytQ2sYYIQrIqp-Sm41Usoey-Zv7HnKZnIRgoNZM3k-qzsYVqjEyYXJMo06xAkkVe0G1o5~8NiTA4Dav5DrVB4o0JkWxxj8u9KRrKgYMmsCSQOZ-2G45JrB8Kw-Ki92duCGB9zz7fUhiKPkSP5goI7QjLWGVeAPPPYHP5WQ6KhY88KzhfXb7SX6RRBHPLuuuJBcIn0Iff3O3OD4Qwf~d9QDvQoRW63B3EWZbYARg__"
+                src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717660483/chicken_khmvyg.png"
               />
               <div className="h-[20mm] w-[20mm] m-1 md:h-[40mm] md:w-[50mm] md:m-2 lg:h-[85mm] lg:w-[85mm] lg:m-3 rounded-md md:rounded-3xl absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-70 flex justify-center items-end pb-10 transition duration-300">
                 <p className="text-white opacity-0 group-hover:opacity-100 font-aileron font-thin tracking-widest uppercase text-[29px]">
@@ -318,7 +318,7 @@ const About = () => {
             <div className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[30mm] m-1 md:h-[40mm] md:w-[70mm] md:m-2 lg:h-[85mm] lg:w-[100mm] lg:m-3 rounded-md md:rounded-3xl"
-                src="https://s3-alpha-sig.figma.com/img/c494/bbfd/18004bbbd2c95a943ff7b35834094082?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZokrqrDR89OhclDPzTAfBi7fGKHS4dczhoZCpPKfh~7Mu7khZJtoW2HWe0p450XFeWu6djr7Vvksvkz4jb1WyKKKeF9UaDewHqqxXlMyH10sQKebfU8TUpapJfE~UaE3RQKuiB15XuDQAO4XM5cx2922Z2ROAHBePSxnnkRCAJPvAzSER1fj99UvaA3MnnlVYpdk2HgzFMNqG0IFAQeYRNAABCifdu9sS8MR~GUTBYBIxLCImIilSSg-CLOdGknmHlmDrx9CZ3BU4O-qh1qwpUKInD8BnBwl6sn5NfqrhKdDTrsccNEzyDXgVJOMNSZiViG6vQ44B87BpfIAhiwLiw__"
+                src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717660483/shoe_aa7jty.png"
               />
               <div className="h-[20mm] w-[30mm] m-1 md:h-[40mm] md:w-[70mm] md:m-2 lg:h-[85mm] lg:w-[100mm] lg:m-3 rounded-md md:rounded-3xl absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-70 flex justify-center items-end pb-10 transition duration-300">
                 <p className="text-white opacity-0 group-hover:opacity-100 font-aileron font-thin tracking-widest uppercase text-[29px]">
@@ -329,7 +329,7 @@ const About = () => {
             <div className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[20mm] m-1 md:h-[40mm] md:w-[50mm] md:m-2 lg:h-[85mm] lg:w-[85mm] lg:m-3 rounded-md md:rounded-3xl"
-                src="https://s3-alpha-sig.figma.com/img/e65c/c093/53fc992f5f93511a061329d902be7c4a?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eJ7s8hpyjiNP9Xygw3EEs7GjuvL5MnQuri8NlB9ye6IxkxABxTHSpHnKl2a6cTMO1zAbIVQgu47fMSBqPyTWlyHwwcEBTKMbae9u1DorKmmbIKxLjqY2jFQYaJoyNgGrG3j0CpXtN9bIowO5ZhvgoJhonty52bDnvsaTyOULIyCvH4z1VaZMrV4xeGlqDBPGLtmW6iiShkg1kCJKcXjNdJ4EfEzy60O7TfYC3cIdmikpMIK9D2CP~YpO~LoTcAX-XyIsyKLoxmmRGQV~0h813TnvFSMB1mCBG6nJAAqeiqcmOzoEfqA5Xw~eBMXY65OmE0EUPefVbx3qo7Sj3qYXDg__"
+                src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717660483/car_bm6ad4.png"
               />
               <div className="h-[20mm] w-[20mm] m-1 md:h-[40mm] md:w-[50mm] md:m-2 lg:h-[85mm] lg:w-[85mm] lg:m-3 rounded-md md:rounded-3xl absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-70 flex justify-center items-end pb-10 transition duration-300">
                 <p className="text-white opacity-0 group-hover:opacity-100 font-aileron font-thin tracking-widest uppercase text-[29px]">
@@ -343,7 +343,7 @@ const About = () => {
             <div className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[15mm] m-1 md:h-[40mm] md:w-[45mm] md:m-2 lg:h-[85mm] lg:w-[60mm] lg:m-3 rounded-md md:rounded-3xl"
-                src="https://s3-alpha-sig.figma.com/img/1cbb/253c/3801e71f1419720fe20c6f96c610c6e9?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xg585tNQJxy5~Id0dW4eSlAOHiS9KmVvZSk-EGxr~z-bWsxgLRfUCb43CoyE2uB5JZtEPfp7ZJGnvB4VPzdAqdPcl28JjYQiw1dpshBQkPtgGFUc3zwaniVOsafORMEAYrSkXL3aww9xrgdSl8rQBQLQlqNqM39naIF276CX0jc~diJmOvhy2utr1em9~t~TkJrgx42wXrsM7vTxxIfbhS70TTRvsBl6NlS78zcZWZEAXtPaLb~Ffqg7VgYSDSufYZm45i6xfFcuK0BaopKPOj3528Yis0RcAFbDMef-rnDNXcY4YMbE12a~2IQ2Fl9eGzGfFzNvgYzNxWmZEqhLKQ__"
+                src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717660483/houses_yvuanx.png"
               />
               <div className="h-[20mm] w-[15mm] m-1 md:h-[40mm] md:w-[45mm] md:m-2 lg:h-[85mm] lg:w-[60mm] lg:m-3 rounded-md md:rounded-3xl absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-70 flex justify-center items-end pb-10 transition duration-300">
                 <p className="text-white opacity-0 group-hover:opacity-100 font-aileron font-thin tracking-widest uppercase text-[29px]">
@@ -354,7 +354,7 @@ const About = () => {
             <div className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[40mm] m-1 md:h-[40mm] md:w-[80mm] md:m-2 lg:h-[85mm] lg:w-[150mm] lg:m-3 rounded-md md:rounded-3xl"
-                src="https://s3-alpha-sig.figma.com/img/f2ee/117f/bf6447bc028d3afc309e3b7b6e42ce32?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DWGAhheHaE5EosRzryq2l6a-r5MivxE5zIxROdIceKG~abZgRX5CASZk7nt7CJ-7vhFYCRcqO0zXy4a3eiNW0q0hoPxAjlTpXjwvftj0aX9LM0Sup0u76QNPkMc2ijtN7LeaDO2-7Nzao5qjnWlTS6A1UxKL9K8j3sdXAIS4w7qhdoMtcEIVKEc6zFEQPWJkFYIo0gdjOcm4YM6rPDbhp4Ew55hMstuJjDRlOrLfoN43Qe0xKvyvuSg4Nff~umkUZzeo302B9OkxiC3Uv1r8lO03-5voioaeQRP0fsyzQguda9IKzdBdOCptGKoZmny4HAMBGSHWIrDW8EVklz3vSg__"
+                src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717661213/pic_gpxvf5.jpg"
               />
               <div className="h-[20mm] w-[40mm] m-1 md:h-[40mm] md:w-[80mm] md:m-2 lg:h-[85mm] lg:w-[150mm] lg:m-3 rounded-md md:rounded-3xl absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-70 flex justify-center items-end pb-10 transition duration-300">
                 <p className="text-white opacity-0 group-hover:opacity-100 font-aileron font-thin tracking-widest uppercase text-[29px]">
@@ -366,7 +366,7 @@ const About = () => {
             <div className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[15mm] m-1 md:h-[40mm] md:w-[45mm] md:m-2 lg:h-[85mm] lg:w-[60mm] lg:m-3 rounded-md md:rounded-3xl"
-                src="https://s3-alpha-sig.figma.com/img/0730/43e4/87f10a69565e16d02e86647660dd27d7?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L5VyLNg122AaWVLPHrWnJPWk7fgt9L4lR~Eey8w7wK8W1KHdUgfVZcqRElBD~029IObcyrvc~4JwC8D2B4JSFaL9-0nrTJEOKQUIGiihHLf1zvw9R-Vo7t3-FRaRpRiTSbSoAcwzFO0FRlDPTbHaGZAItCftWvuxcPqkLzSZ31XEETP~pHZRsPiDIREiH0PSkdSdoy6f35mqZbHH4Itp9ZLFlS2FnmWlPCOuR8LaOh02dmwPikptZKGbY6UbtN5pjLD~1had-xo8kpdsjwH6gtrrodLmFVxj9Cdgi6tcqMYY0FuSbUCSmNOPWOi8z9ZJ8K8f742oA6-5PXJSLpaJpg__"
+                src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717660483/animie_gskbnu.png"
               />
               <div className="h-[20mm] w-[15mm] m-1 md:h-[40mm] md:w-[45mm] md:m-2 lg:h-[85mm] lg:w-[60mm] lg:m-3 rounded-md md:rounded-3xl absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-70 flex justify-center items-end pb-10 transition duration-300">
                 <p className="text-white opacity-0 group-hover:opacity-100 font-aileron font-thin tracking-widest uppercase text-[29px]">
