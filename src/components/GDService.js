@@ -73,12 +73,19 @@ const GDService = () => {
         </div>
 
         {/* First Div  */}
-        <div>
+        <div className="pt-[10%] md:pt-[5%] justify-center flex">
           <img src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1718526454/3_aoft4x.png" />
         </div>
 
+        <div className="md:hidden block mt-[7%] mx-3">
+          <p className="text-left uppercase text-gray-400">Services</p>
+          <p className="text-left uppercase text-white text-[25px]">GRAPHIC DESIGN </p>
+          <p  className="text-left  text-gray-400 pt-[5%] ">Step into a visual journey that encapsulates the essence of my lens. Each photograph in this portfolio is a narrative, a frozen moment in time, and a testament to the artistry and passion poured into every frame. Explore the diverse tapestry of stories I've had the privilege to capture and witness the world through my lens.</p>
+
+        </div>
+
         {/* 3 words */}
-        <div className="bg-[#0E0E10] flex justify-center justify-evenly my-3 text-[#1C1C21] uppercase text-[12px] md:text-[20px] lg:text-[30px] font-serif">
+        <div className="bg-[#0E0E10] mt-6 md:p-1 p-2 flex justify-center justify-evenly my-3 text-gray-600 uppercase text-[12px] md:text-[20px] lg:text-[30px] font-serif">
           <div>Moodale</div>
           <div>Drinkcart</div>
           <div>AAina: the careers</div>
@@ -290,6 +297,7 @@ const GDService = () => {
               {/* <p className="pt-5 text-left mx-10 text-gray-400">
               Delicious Pizza </p> */}
             </div>
+            <hr className="mt-[14%] mx-4 ml-5  border-gray-800"/>
             {/* ui.ux */}
             <div>
               <div className="pt-10 text-left mx-[7%] text-gray-600">
@@ -299,9 +307,9 @@ const GDService = () => {
               </div>
               <div className="mx-[6%] mt-5 relative">
                 <img
-                  className="rounded-3xl w-[95%] mx-auto"
+                  className="rounded-3xl w-[95%] mx-auto h-[90mm]"
                   src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1716453710/yjbczxmsil9ngpcrapov.png"
-                  alt="your image"
+                  alt="your image" 
                 />
                 <div className="flex bg-black rounded-full m-3 absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
                   <div className="flex m-2 border-2 border-zinc-800 rounded-full">
@@ -317,6 +325,7 @@ const GDService = () => {
               {/* <p className="pt-5 text-left mx-10 text-gray-400">
               McLaren 720s </p> */}
             </div>
+            <hr className="mt-[14%] mx-4 ml-5  border-gray-800"/>
             {/* photography*/}
             <div className="mb-10">
               <div className="pt-10 text-left mx-[7%] text-gray-600">
