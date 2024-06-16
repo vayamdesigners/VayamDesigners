@@ -210,7 +210,7 @@ const About = () => {
             <div className="mx-[6%] mt-5 relative">
               <img
                 className="rounded-3xl w-[95%] mx-auto"
-                src="https://s3-alpha-sig.figma.com/img/b128/db12/63e72cc6709754d8b9b8e023adab5a77?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hfZapXVMlsbPMQc76sj2nadvWrORSQImuaF35w02giEU8Jc2Y8IM3wWcforPlkiJ8agGqOkfUUUmpIQhdOMMwLQUsh6XKKBwFZ5RZW9xXPsuelZytQ2sYYIQrIqp-Sm41Usoey-Zv7HnKZnIRgoNZM3k-qzsYVqjEyYXJMo06xAkkVe0G1o5~8NiTA4Dav5DrVB4o0JkWxxj8u9KRrKgYMmsCSQOZ-2G45JrB8Kw-Ki92duCGB9zz7fUhiKPkSP5goI7QjLWGVeAPPPYHP5WQ6KhY88KzhfXb7SX6RRBHPLuuuJBcIn0Iff3O3OD4Qwf~d9QDvQoRW63B3EWZbYARg__"
+                src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717660483/chicken_khmvyg.png"
                 alt="your image"
               />
               <div className="flex bg-black rounded-full m-3 absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
@@ -242,7 +242,7 @@ const About = () => {
             <div className="mx-[6%] mt-5 relative">
               <img
                 className="rounded-3xl w-[95%] mx-auto"
-                src="https://s3-alpha-sig.figma.com/img/c494/bbfd/18004bbbd2c95a943ff7b35834094082?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZokrqrDR89OhclDPzTAfBi7fGKHS4dczhoZCpPKfh~7Mu7khZJtoW2HWe0p450XFeWu6djr7Vvksvkz4jb1WyKKKeF9UaDewHqqxXlMyH10sQKebfU8TUpapJfE~UaE3RQKuiB15XuDQAO4XM5cx2922Z2ROAHBePSxnnkRCAJPvAzSER1fj99UvaA3MnnlVYpdk2HgzFMNqG0IFAQeYRNAABCifdu9sS8MR~GUTBYBIxLCImIilSSg-CLOdGknmHlmDrx9CZ3BU4O-qh1qwpUKInD8BnBwl6sn5NfqrhKdDTrsccNEzyDXgVJOMNSZiViG6vQ44B87BpfIAhiwLiw__"
+                src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717660483/shoe_aa7jty.png"
                 alt="your image"
               />
               <div className="flex bg-black rounded-full m-3 absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
@@ -267,13 +267,12 @@ const About = () => {
               </p>
             </div>
           </div>
-          {/* photography
-           */}
+          {/* photography*/}
           <div className="pt-[7%]">
             <div className="mx-[6%] mt-5 relative">
               <img
                 className="rounded-3xl object-scale-down mx-auto"
-                src="https://s3-alpha-sig.figma.com/img/e65c/c093/53fc992f5f93511a061329d902be7c4a?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eJ7s8hpyjiNP9Xygw3EEs7GjuvL5MnQuri8NlB9ye6IxkxABxTHSpHnKl2a6cTMO1zAbIVQgu47fMSBqPyTWlyHwwcEBTKMbae9u1DorKmmbIKxLjqY2jFQYaJoyNgGrG3j0CpXtN9bIowO5ZhvgoJhonty52bDnvsaTyOULIyCvH4z1VaZMrV4xeGlqDBPGLtmW6iiShkg1kCJKcXjNdJ4EfEzy60O7TfYC3cIdmikpMIK9D2CP~YpO~LoTcAX-XyIsyKLoxmmRGQV~0h813TnvFSMB1mCBG6nJAAqeiqcmOzoEfqA5Xw~eBMXY65OmE0EUPefVbx3qo7Sj3qYXDg__"
+                src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717661213/pic_gpxvf5.jpg"
                 alt="your image"
                 style={{ height: "300px", width: "950%", objectFit: "cover" }}
               />

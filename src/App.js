@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import Contact from './components/Contact'
 import Service from './components/Service'
+import GDService from './components/GDService'
 import Errorpage from './components/Errorpage'
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/GDService" element={<GDService />} />
           <Route path="*" element={<Errorpage />} />
 
         </Routes>

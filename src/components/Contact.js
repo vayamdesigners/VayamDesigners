@@ -135,8 +135,8 @@ const Contact = () => {
           <div>
             <div className="hidden md:block m-[5%] relative">
               <img
-                className="rounded-3xl"
-                src="https://s3-alpha-sig.figma.com/img/e211/1692/3c3d7c3c846eab77857081e04985627e?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZmE6RIa43N~LZQ9A0RZVYXJUAvcfLbR14vaz03~gR8SkRdYV8nVIyzDMUrlV8Juz0K-~ZhixzS4-9n0-9gSgWPJSLPOn-2GvOY2vABsK9QuYilijpN7sCCM1-mc0tgeWlPwkrWhBZuRlSJFDS-7z6bQhs3OlAtC0Kc5AUipVzu3M9I4WoPBejrP4RAYa9kyVo5-BOWw81yILWkXv1Anubtc4NmFuSKyLQ3M4L1gCuZAEucIQxXE-sZFmDPO2G9j3odatIK8yl8w8nY9KYwBYJP6pvykaHwcE7wjTDcSi~TWlpsPDzDFZWfTy-HsMzsPzWP-LKeJf05MnJFfXgzujLQ__"
+                className="rounded-3xl "
+                src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1718194184/camera_ptiuak.png"
                 alt="background"
               />
             </div>
