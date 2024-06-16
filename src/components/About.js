@@ -84,24 +84,24 @@ const About = () => {
                 Happy Clients
               </p>
             </div>
-            <div className="bg-[#1C1C21] rounded-md mx-1 p-4 py-8 pr-16 mb-4 flex-1">
+            <Link to="/GDService" className="bg-[#1C1C21] rounded-md mx-1 p-4 py-8 pr-16 mb-4 flex-1">
               <p className="text-[22px] text-left">25+</p>
               <p className="text-[14px] text-left text-gray-500">
                 Graphic Projects
               </p>
-            </div>
-            <div className="bg-[#1C1C21] rounded-md mx-1 p-4 py-8 pr-16 mb-4 flex-1">
+            </Link>
+            <Link to="/UXService" className="bg-[#1C1C21] rounded-md mx-1 p-4 py-8 pr-16 mb-4 flex-1">
               <p className="text-[22px] text-left">10+</p>
               <p className="text-[14px] text-left text-gray-500">
                 UiUx Projects
               </p>
-            </div>
-            <div className="bg-[#1C1C21] rounded-md mx-1 p-4 py-8 pr-16 mb-4 flex-1">
+            </Link>
+            <Link to="/PVService" className="bg-[#1C1C21] rounded-md mx-1 p-4 py-8 pr-16 mb-4 flex-1">
               <p className="text-[22px] text-left">15+</p>
               <p className="text-[14px] text-left text-gray-500">
                 Photography Projects
               </p>
-            </div>
+            </Link>
             <div className="bg-[#1C1C21] rounded-md mx-1 p-4 py-8 pr-16 mb-4 flex-1">
               <p className="text-[22px] text-left">10+</p>
               <p className="text-[14px] text-left text-gray-500">
@@ -303,7 +303,7 @@ const About = () => {
         {/* photogrid */}
         <div className="hidden md:flex flex-col items-center my-[5%] ">
           <div className="flex  bg-zinc-800 md:pt-3 md:px-3 rounded-t-3xl">
-            <div className="relative group cursor-pointer">
+            <Link to="/GDService" className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[20mm] m-1 md:h-[40mm] md:w-[50mm] md:m-2 lg:h-[85mm] lg:w-[85mm] lg:m-3 rounded-md md:rounded-3xl"
                 src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717660483/chicken_khmvyg.png"
@@ -313,8 +313,8 @@ const About = () => {
                   Graphic Designer
                 </p>
               </div>
-            </div>
-            <div className="relative group cursor-pointer">
+            </Link>
+            <Link to="/UXService" className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[30mm] m-1 md:h-[40mm] md:w-[70mm] md:m-2 lg:h-[85mm] lg:w-[100mm] lg:m-3 rounded-md md:rounded-3xl"
                 src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717660483/shoe_aa7jty.png"
@@ -324,8 +324,8 @@ const About = () => {
                   UI/UX DESIGN
                 </p>
               </div>
-            </div>
-            <div className="relative group cursor-pointer">
+            </Link>
+            <Link to="/PVService" className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[20mm] m-1 md:h-[40mm] md:w-[50mm] md:m-2 lg:h-[85mm] lg:w-[85mm] lg:m-3 rounded-md md:rounded-3xl"
                 src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717662528/bike_mopq0o.jpg"
@@ -335,7 +335,7 @@ const About = () => {
                   Photography
                 </p>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="flex  bg-zinc-800 md:pb-3 md:px-3 rounded-b-3xl">

@@ -269,7 +269,8 @@ function Home() {
         {/* photo grid */}
         <div className="hidden md:flex flex-col items-center my-5 ">
           <div className="flex  bg-zinc-800 md:pt-3 md:px-3 rounded-t-3xl">
-            <div className="relative group cursor-pointer">
+        
+            <Link to="/GDService" className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[20mm] m-1 md:h-[40mm] md:w-[50mm] md:m-2 lg:h-[85mm] lg:w-[85mm] lg:m-3 rounded-md md:rounded-3xl"
                 src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717660483/chicken_khmvyg.png"
@@ -279,8 +280,9 @@ function Home() {
                   Graphic Designer
                 </p>
               </div>
-            </div>
-            <div className="relative group cursor-pointer">
+            </Link>
+
+            <Link to="/UXService" className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[30mm] m-1 md:h-[40mm] md:w-[70mm] md:m-2 lg:h-[85mm] lg:w-[100mm] lg:m-3 rounded-md md:rounded-3xl"
                 src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717660483/shoe_aa7jty.png"
@@ -290,8 +292,8 @@ function Home() {
                   UI/UX DESIGN
                 </p>
               </div>
-            </div>
-            <div className="relative group cursor-pointer">
+            </Link>
+            <Link to="/PVService" className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[20mm] m-1 md:h-[40mm] md:w-[50mm] md:m-2 lg:h-[85mm] lg:w-[85mm] lg:m-3 rounded-md md:rounded-3xl"
                 src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717662528/bike_mopq0o.jpg"
@@ -301,7 +303,7 @@ function Home() {
                   Photography
                 </p>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="flex  bg-zinc-800 md:pb-3 md:px-3 rounded-b-3xl">
@@ -567,33 +569,33 @@ function Home() {
           </div>
           <div className="flex flex-row w-[100%] px-2 pt-5 ">
             <div className="flex flex-col w-[50%] pt-5">
-              <p className="text-[#AFB0B6]  text-[4mm]  px-5 pb-3 text-left">
+              <p className="cursor-pointer text-[#AFB0B6]  text-[4mm]  px-5 pb-3 text-left">
                 HOME
               </p>
-              <p className="text-left text-[4mm] px-5 py-2 underline underline-offset-8">
+              <Link to="/About" className="cursor-pointer text-left text-[4mm] px-5 py-2 underline underline-offset-8">
                 ABOUT ME
-              </p>
-              <p className="text-left text-[4mm] px-5 py-2 underline underline-offset-8">
+              </Link>
+              <p className="cursor-pointer text-left text-[4mm] px-5 py-2 underline underline-offset-8">
                 MY WORKS
               </p>
-              <p className="text-left text-[4mm] px-5 py-2 underline underline-offset-8">
+              <p className="cursor-pointer text-left text-[4mm] px-5 py-2 underline underline-offset-8">
                 TESTIMONIALS
               </p>
             </div>
             <div className="flex flex-col w-[50%] pt-5">
-              <p className="text-[#AFB0B6] px-5 pb-3 text-[4mm] text-right">
+              <p className="cursor-pointer text-[#AFB0B6] px-5 pb-3 text-[4mm] text-right">
                 CLIENTS
               </p>
-              <p className="text-right py-2 pl-2 px-5 text-[4mm] underline underline-offset-8">
+              <p className="cursor-pointer text-right py-2 pl-2 px-5 text-[4mm] underline underline-offset-8">
                 MOODALE
               </p>
-              <p className="text-right text-[4mm] px-5 py-2 pl-2 underline underline-offset-8">
+              <p className="cursor-pointer text-right text-[4mm] px-5 py-2 pl-2 underline underline-offset-8">
                 DRINKCART
               </p>
-              <p className="text-right pt-2 pl-2 text-[4mm] px-5 ">
+              <p className="cursor-pointer text-right pt-2 pl-2 text-[4mm] px-5 ">
                 AAIEN: THE
               </p>
-              <p className="text-right pl-2 text-[4mm] px-5 underline underline-offset-8">
+              <p className="cursor-pointer text-right pl-2 text-[4mm] px-5 underline underline-offset-8">
                 CAREERS
               </p>
             </div>
@@ -603,45 +605,45 @@ function Home() {
               <p className="text-[#AFB0B6] px-5 pb-3 text-[4mm] text-left">
                 PORTFOLIO
               </p>
-              <p className="text-left py-2 text-[3.5mm] px-5 underline underline-offset-8">
+              <Link to="/GDService" className="cursor-pointer text-left py-2 text-[3.5mm] px-5 underline underline-offset-8">
                 GRAPHIC DESIGN
-              </p>
-              <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
+              </Link>
+              <Link to="/UXService" className="cursor-pointer text-left py-2 text-[4mm] px-5 underline underline-offset-8">
                 UI/UX DESIGN
-              </p>
-              <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
+              </Link>
+              <Link to="/PVService" className="cursor-pointer text-left py-2 text-[4mm] px-5 underline underline-offset-8">
                 PHOTOGRAPHY
-              </p>
-              <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
+              </Link>
+              <p className="cursor-pointer text-left py-2 text-[4mm] px-5 underline underline-offset-8">
                 PHOTO EDIT
               </p>
-              <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
+              <Link to="/PVService" className="cursor-pointer text-left py-2 text-[4mm] px-5 underline underline-offset-8">
                 VIDEOGRAPHY
-              </p>
-              <p className="text-left py-2 text-[4mm] px-5 underline underline-offset-8">
+              </Link>
+              <p className="cursor-pointer text-left py-2 text-[4mm] px-5 underline underline-offset-8">
                 VIDEO EDIT
               </p>
             </div>
             <div className="flex flex-col w-[50%] pt-5">
-              <p className="text-[#AFB0B6] pb-3 text-[4mm]  px-5 text-right">
+              <p className="cursor-pointer text-[#AFB0B6] pb-3 text-[4mm]  px-5 text-right">
                 SERVICES
               </p>
-              <p className="text-right py-2 text-[3.5mm] px-5 underline underline-offset-8">
+              <Link to="/GDService" className="cursor-pointer text-right py-2 text-[3.5mm] px-5 underline underline-offset-8">
                 GRAPHIC DESIGN
-              </p>
-              <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8">
+              </Link>
+              <Link to="/UXService" className="cursor-pointer text-right py-2 text-[4mm] px-5 underline underline-offset-8">
                 UI/UX DESIGN
-              </p>
-              <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8">
+              </Link>
+              <Link to="/PVService" className="cursor-pointer text-right py-2 text-[4mm] px-5 underline underline-offset-8">
                 PHOTOGRAPHY
-              </p>
-              <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8 uppercase">
+              </Link>
+              <p className="cursor-pointer text-right py-2 text-[4mm] px-5 underline underline-offset-8 uppercase">
                 Editing
               </p>
-              <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8 uppercase">
+              <p className="cursor-pointer text-right py-2 text-[4mm] px-5 underline underline-offset-8 uppercase">
                 digital art
               </p>
-              <p className="text-right py-2 text-[4mm] px-5 underline underline-offset-8 uppercase">
+              <p className="cursor-pointer text-right py-2 text-[4mm] px-5 underline underline-offset-8 uppercase">
                 3d modelling
               </p>
             </div>
@@ -700,79 +702,79 @@ function Home() {
             {/* Right Section */}
             <div className="lg:w-[60%] md:w-[70%] flex flex-row text-[10px] border-l-2 border-zinc-900 py-5 pl-[2%] pt-[6%]">
               <div>
-                <p className="text-[#AFB0B6] text-[3mm]  px-5 pb-3 text-left">
+                <p className="cursor-pointer text-[#AFB0B6] text-[3mm]  px-5 pb-3 text-left">
                   HOME
                 </p>
-                <p className="text-left text-[3.1mm] px-5 py-2 underline underline-offset-8">
+                <p className="cursor-pointer text-left text-[3.1mm] px-5 py-2 underline underline-offset-8">
                   ABOUT ME
                 </p>
-                <p className="text-left text-[3.1mm] px-5 py-2 underline underline-offset-8">
+                <p className="cursor-pointer text-left text-[3.1mm] px-5 py-2 underline underline-offset-8">
                   MY WORKS
                 </p>
-                <p className="text-left text-[3.1mm] px-5 py-2 underline underline-offset-8">
+                <p className="cursor-pointer text-left text-[3.1mm] px-5 py-2 underline underline-offset-8">
                   TESTIMONIALS
                 </p>
               </div>
               <div>
-                <p className="text-[#AFB0B6] px-5 pb-3 text-[3mm] text-left">
+                <p className="cursor-pointer text-[#AFB0B6] px-5 pb-3 text-[3mm] text-left">
                   CLIENTS
                 </p>
-                <p className="text-left py-2 pl-2 text-[3.1mm] underline underline-offset-8">
+                <p className="cursor-pointer text-left py-2 pl-2 text-[3.1mm] underline underline-offset-8">
                   MOODALE
                 </p>
-                <p className="text-left text-[3.1mm] px-5 py-2 pl-2 underline underline-offset-8">
+                <p className="cursor-pointer text-left text-[3.1mm] px-5 py-2 pl-2 underline underline-offset-8">
                   DRINKCART
                 </p>
-                <p className="text-left pt-2 pl-2 text-[3.1mm] px-5 ">
+                <p className="cursor-pointer text-left pt-2 pl-2 text-[3.1mm] px-5 ">
                   AAIEN: THE
                 </p>
-                <p className="text-left pl-2 text-[3.1mm] px-5 underline underline-offset-8">
+                <p className="cursor-pointer text-left pl-2 text-[3.1mm] px-5 underline underline-offset-8">
                   CAREERS
                 </p>
               </div>
               <div>
-                <p className="text-[#AFB0B6] px-5 pb-3 text-[3mm] text-left">
+                <p className="cursor-pointer text-[#AFB0B6] px-5 pb-3 text-[3mm] text-left">
                   PORTFOLIO
                 </p>
-                <p className="text-left py-2 text-[3mm] px-5 underline underline-offset-8">
+                <p className="cursor-pointer text-left py-2 text-[3mm] px-5 underline underline-offset-8">
                   GRAPHIC DESIGN
                 </p>
-                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                <p className="cursor-pointer text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
                   UI/UX DESIGN
                 </p>
-                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                <p className="cursor-pointer text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
                   PHOTOGRAPHY
                 </p>
-                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                <p className="cursor-pointer text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
                   PHOTO EDIT
                 </p>
-                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                <p className="cursor-pointer text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
                   VIDEOGRAPHY
                 </p>
-                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                <p className="cursor-pointer text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
                   VIDEO EDIT
                 </p>
               </div>
               <div>
-                <p className="text-[#AFB0B6] pb-3 text-[3mm]  px-5 text-left">
+                <p className="cursor-pointer text-[#AFB0B6] pb-3 text-[3mm]  px-5 text-left">
                   SERVICES
                 </p>
-                <p className="text-left py-2 lg:text-[3mm] md:text-[2.5mm] px-5 underline underline-offset-8">
+                <p className="cursor-pointer text-left py-2 lg:text-[3mm] md:text-[2.5mm] px-5 underline underline-offset-8">
                   GRAPHIC DESIGN
                 </p>
-                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                <p className="cursor-pointer text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
                   UI/UX DESIGN
                 </p>
-                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
+                <p className="cursor-pointer text-left py-2 text-[3.1mm] px-5 underline underline-offset-8">
                   PHOTOGRAPHY
                 </p>
-                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8 uppercase">
+                <p className="cursor-pointer text-left py-2 text-[3.1mm] px-5 underline underline-offset-8 uppercase">
                   Editing
                 </p>
-                <p className="text-left py-2 text-[3.1mm] px-5 underline underline-offset-8 uppercase">
+                <p className="cursor-pointer text-left py-2 text-[3.1mm] px-5 underline underline-offset-8 uppercase">
                   digital art
                 </p>
-                <p className="text-left py-2 text-[3mm] px-5 underline underline-offset-8 uppercase">
+                <p className="cursor-pointer text-left py-2 text-[3mm] px-5 underline underline-offset-8 uppercase">
                   3d modelling
                 </p>
               </div>
