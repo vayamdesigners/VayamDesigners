@@ -122,21 +122,21 @@ const About = () => {
                 Happy Clients
               </p>
             </div>
-            <div className="flex justify-between w-[100%]">
+            <Link to="/GDService" className="flex justify-between w-[100%]">
               <div className="bg-[#1C1C21] w-[50%] rounded-md mx-1 p-4 pr-14 mb-4 flex-1">
                 <p className="text-[22px] text-left">70+</p>
                 <p className="text-[14px] text-left text-gray-500">
                   Graphic Projects
                 </p>
               </div>
-              <div className="bg-[#1C1C21] w-[50%] rounded-md mx-1 p-4 pr-14 mb-4 flex-1">
+              <Link to="/UXService" className="bg-[#1C1C21] w-[50%] rounded-md mx-1 p-4 pr-14 mb-4 flex-1">
                 <p className="text-[22px] text-left">30+</p>
                 <p className="text-[14px] text-left text-gray-500">
                   UiUx Projects
                 </p>
-              </div>
-            </div>
-            <div className="flex justify-between w-[100%]">
+              </Link>
+            </Link>
+            <Link to="/PVService" className="flex justify-between w-[100%]">
               <div className="bg-[#1C1C21] rounded-md mx-1 p-4 pr-14 mb-4 flex-1 w-[50%]">
                 <p className="text-[22px] text-left">15+</p>
                 <p className="text-[14px] text-left text-gray-500">
@@ -149,7 +149,7 @@ const About = () => {
                   Editing projects
                 </p>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
         <hr className="block border-gray-800 my-[12%] md:hidden" />
