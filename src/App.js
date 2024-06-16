@@ -5,6 +5,7 @@ import About from "./components/About";
 import Contact from './components/Contact'
 import Service from './components/Service'
 import GDService from './components/GDService'
+import UXService from './components/UXService'
 import Errorpage from './components/Errorpage'
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route path="/service" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/GDService" element={<GDService />} />
+          <Route path="/UXService" element={<UXService />} />
+
           <Route path="*" element={<Errorpage />} />
 
         </Routes>
