@@ -479,7 +479,49 @@ function Home() {
               </p>
             </div>
           </div>
-       </div>
+                {/*box3*/} 
+          <div className="h-[60mm] w-[85mm] p-1 ">
+            <div
+              className="p-4 rounded-lg h-full"
+              style={{
+                backgroundImage:
+                  "url(https://res.cloudinary.com/dbenkbws8/image/upload/v1713886080/Card_pj4dug.png)",
+              }}
+            >
+              
+              <div className="flex items-center justify-between">
+                <div className="text-left">
+                  <p className="text-white font-semibold">TTPOC</p>
+                  <p className="text-gray-400 text-sm">Hyderabad</p>
+                </div>
+                <div className="flex space-x-2 border-2 border-black bg-black p-1 rounded-full">
+                  <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
+                    <IoLogoFacebook className="text-white" />
+                  </div>
+                  <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
+                    <FaTwitter className="text-white" />
+                  </div>
+                  <div className="border-2 border-[#2F2F37] bg-[#2F2F37] rounded-full p-1">
+                    <FaLinkedin className="text-white" />
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center mt-2 ">
+                {[...Array(5)].map((_, index) => (
+                  <div key={index} className="my-4">
+                    <FaStar className="fill-yellow-500" />
+                  </div>
+                ))}
+              </div>
+              <p className="text-white mt-2 text-[14px] pb-1 text-left">
+                "Their creative team has consistently delivered stunning
+                graphic designs, photography, and videography that perfectly
+                capture our brand and event essence."
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* background */}
         <div className="mt-[5%] h-[20mm] md:h-[65mm] flex justify-end mr-[4%] md:mr-[10%]">
           <img src="https://res.cloudinary.com/dbenkbws8/image/upload/v1713890705/Vayam_vector_c99jmo.png" />
