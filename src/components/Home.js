@@ -488,7 +488,7 @@ function Home() {
                   "url(https://res.cloudinary.com/dbenkbws8/image/upload/v1713886080/Card_pj4dug.png)",
               }}
             >
-              <p hidden>
+              <div style="display:none;">
               <div className="flex items-center justify-between">
                 <div className="text-left">
                   <p className="text-white font-semibold">Denaurlen</p>
@@ -521,7 +521,7 @@ function Home() {
             </div>
           </div>
         </div>
-        </p>
+        </div>
         {/* background */}
         <div className="mt-[5%] h-[20mm] md:h-[65mm] flex justify-end mr-[4%] md:mr-[10%]">
           <img src="https://res.cloudinary.com/dbenkbws8/image/upload/v1713890705/Vayam_vector_c99jmo.png" />
