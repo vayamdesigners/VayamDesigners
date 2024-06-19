@@ -514,9 +514,9 @@ function Home() {
                 ))}
               </div>
               <p className="text-white mt-2 text-[14px] pb-1 text-left">
-                "Their creative team has consistently delivered stunning
-                graphic designs, photography, and videography that perfectly
-                capture our brand and event essence."
+                "Their creative team has consistently delivered stunning graphic
+                designs, photography, and videography that perfectly capture
+                our brand and event essence."
               </p>
             </div>
           </div>
