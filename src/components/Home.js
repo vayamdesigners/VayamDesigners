@@ -479,7 +479,7 @@ function Home() {
               </p>
             </div>
           </div>
-          {/*box3*/} 
+{/*{/*box3*/} 
           <div className="h-[60mm] w-[85mm] p-1 ">
             <div
               className="p-4 rounded-lg h-full"
@@ -521,7 +521,7 @@ function Home() {
             </div>
           </div>
         </div>
-        
+       */} 
         {/* background */}
         <div className="mt-[5%] h-[20mm] md:h-[65mm] flex justify-end mr-[4%] md:mr-[10%]">
           <img src="https://res.cloudinary.com/dbenkbws8/image/upload/v1713890705/Vayam_vector_c99jmo.png" />
