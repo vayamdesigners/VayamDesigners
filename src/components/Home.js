@@ -521,7 +521,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <p>
+        </p>
         {/* background */}
         <div className="mt-[5%] h-[20mm] md:h-[65mm] flex justify-end mr-[4%] md:mr-[10%]">
           <img src="https://res.cloudinary.com/dbenkbws8/image/upload/v1713890705/Vayam_vector_c99jmo.png" />
