@@ -523,10 +523,7 @@ function Home() {
         </div>
 
         {/* background */}
-        <div className="mt-[5%] h-[20mm] md:h-[65mm] flex justify-end mr-[4%] md:mr-[10%]">
-          <img src="https://res.cloudinary.com/dbenkbws8/image/upload/v1713890705/Vayam_vector_c99jmo.png" />
-        </div>
-
+       
         {/* Footer Small */}
 
         <div className="md:hidden mx-[7%]">
@@ -599,6 +596,9 @@ function Home() {
               </p>
               <p className="cursor-pointer text-right pl-2 text-[4mm] px-5 underline underline-offset-8">
                 CAREERS
+              </p>
+          <p className="cursor-pointer text-right text-[4mm] px-5 py-2 pl-2 underline underline-offset-8">
+                TTPOC
               </p>
             </div>
           </div>
@@ -732,6 +732,9 @@ function Home() {
                 </p>
                 <p className="cursor-pointer text-left pl-2 text-[3.1mm] px-5 underline underline-offset-8">
                   CAREERS
+                </p>
+               <p className="cursor-pointer text-left text-[3.1mm] px-5 py-2 pl-2 underline underline-offset-8">
+                  TTPOC
                 </p>
               </div>
               <div>
