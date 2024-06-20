@@ -273,7 +273,7 @@ function Home() {
             <Link to="/GDService" className="relative group cursor-pointer">
               <img
                 className="h-[20mm] w-[20mm] m-1 md:h-[40mm] md:w-[50mm] md:m-2 lg:h-[85mm] lg:w-[85mm] lg:m-3 rounded-md md:rounded-3xl"
-                src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1717660483/chicken_khmvyg.png"
+                src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1718525541/burger_fyg3qr.png"
               />
               <div className="h-[20mm] w-[20mm] m-1 md:h-[40mm] md:w-[50mm] md:m-2 lg:h-[85mm] lg:w-[85mm] lg:m-3 rounded-md md:rounded-3xl absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-70 flex justify-center items-end pb-10 transition duration-300">
                 <p className="text-white opacity-0 group-hover:opacity-100 font-aileron font-thin tracking-widest uppercase text-[29px]">
