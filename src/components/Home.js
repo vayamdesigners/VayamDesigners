@@ -523,7 +523,11 @@ function Home() {
         </div>
 
         {/* background */}
-       
+           <div className="mt-[5%] h-[20mm] md:h-[65mm] flex justify-end mr-[4%] md:mr-[10%]">
+          
+        </div>
+
+
         {/* Footer Small */}
 
         <div className="md:hidden mx-[7%]">
