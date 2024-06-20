@@ -473,7 +473,7 @@ function Home() {
                   </div>
                 ))}
               </div>
-              <p className="text-white mt-2 text-left">
+              <p className="text-white text-left">
                 "An outstanding achievement! Vayam earns a resounding five-star
                 rating for their exceptional UI/UX work."
               </p>
@@ -513,7 +513,7 @@ function Home() {
                   </div>
                 ))}
               </div>
-              <p className="text-white mt-2 text-left">
+              <p className="text-white text-left">
                 "Their creative team has consistently delivered stunning graphic
                 designs, photography, and videography that perfectly capture
                 our brand and event essence."
