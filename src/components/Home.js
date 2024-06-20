@@ -435,9 +435,7 @@ function Home() {
                 "It’s A Happy Collaboration With This Team As In They Listen To
                 Your Requirements With Utmost Patience And Deliver A Very Well
                 Curated Piece Of Content."
-              </p>
-                  
-
+              </p> 
             </div>
           </div>
           {/* box2 */}
@@ -466,9 +464,9 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center mt-2 ">
+              <div className="flex items-center">
                 {[...Array(5)].map((_, index) => (
-                  <div key={index} className="my-4">
+                  <div key={index} className="my-1">
                     <FaStar className="fill-yellow-500" />
                   </div>
                 ))}
@@ -506,9 +504,9 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center mt-2 ">
+              <div className="flex items-center">
                 {[...Array(5)].map((_, index) => (
-                  <div key={index} className="my-4">
+                  <div key={index} className="my-1">
                     <FaStar className="fill-yellow-500" />
                   </div>
                 ))}
