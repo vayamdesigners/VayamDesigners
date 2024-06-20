@@ -431,12 +431,12 @@ function Home() {
                   </div>
                 ))}
               </div>
-              <p className="text-white text-[13px]  text-left ">
+              <p className="text-white  text-left ">
                 "It’s A Happy Collaboration With This Team As In They Listen To
                 Your Requirements With Utmost Patience And Deliver A Very Well
-                Curated Piece Of Content. "
+                Curated Piece Of Content."
               </p>
-              <p className="text-white text-[13px] text-left mt-1"> But Mind You, Quality Takes Time And Yes They Take It For Finesse.</p>
+                  
 
             </div>
           </div>
@@ -513,7 +513,7 @@ function Home() {
                   </div>
                 ))}
               </div>
-              <p className="text-white mt-2 text-[14px] pb-1 text-left">
+              <p className="text-white mt-2 text-left">
                 "Their creative team has consistently delivered stunning graphic
                 designs, photography, and videography that perfectly capture
                 our brand and event essence."
