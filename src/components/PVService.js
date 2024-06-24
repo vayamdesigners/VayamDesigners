@@ -119,8 +119,8 @@ const PVService = () => {
                 <p className="uppercase text-left pt-3">Faces of Resilience</p>
               </div>
               <div className="mx-4">
-                <img src="https://res.cloudinary.com/dyf6jb0yu/image/upload/v1719064597/DSC04292_wbvxkp.jpg" />
-                <p className="text-left pt-3">
+                <img src="https://res.cloudinary.com/dyf6jb0yu/image/upload/t_rr/v1719064597/DSC04292_wbvxkp.jpg" />
+                <p className="uppercase text-left pt-3">
                 Innocence Unveiled  
                 </p>
               </div>
